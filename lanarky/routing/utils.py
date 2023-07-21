@@ -31,6 +31,7 @@ class LLMCacheMode(IntEnum):
 BASE_LANGCHAIN_TYPES = [
     "ConversationChain",
     "AgentExecutor",
+    "PlanAndExecute",
     "RetrievalQAWithSourcesChain",
     "ConversationalRetrievalChain",
 ]
